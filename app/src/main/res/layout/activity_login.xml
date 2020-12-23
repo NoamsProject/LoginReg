@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    android:background="#FFFFFF"
+    tools:context=".Login">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Make sure to fill all fields"
+        android:textSize="40dp"
+        android:layout_marginTop="100dp"
+        android:textColor="#0F1532"
+        android:id="@+id/tv" />
+
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:columnCount="2"
+        android:layout_gravity="center"
+        android:layout_marginTop="70dp">
+
+        <TextView
+            android:id="@+id/tv1"
+            android:layout_width="183dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:background="#FFFFFF"
+            android:text="Enter your nickname"
+            android:textColor="#0F1532"
+            android:textSize="19dp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/etNickLog"
+            android:layout_width="206dp"
+            android:layout_height="wrap_content"
+            android:background="#0F1532"
+            android:textColor="#FFFFFF"/>
+
+        <TextView
+            android:id="@+id/tv2"
+            android:layout_width="186dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:background="#FFFFFF"
+            android:text="Enter your password"
+            android:layout_marginTop="5dp"
+            android:textColor="#0F1532"
+            android:textSize="19dp"
+
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/etPassLog"
+            android:layout_width="204dp"
+            android:layout_height="wrap_content"
+            android:background="#0F1532"
+            android:textColor="#FFFFFF"
+            android:layout_marginTop="5dp"/>
+
+
+    </GridLayout>
+
+    <Button
+        android:id="@+id/btnGolog"
+        android:layout_width="match_parent"
+        android:layout_height="61dp"
+        android:layout_marginTop="150dp"
+        android:background="#0F1532"
+        android:text="Login"
+        android:textColor="#FFFFFF"
+        android:textSize="25dp"
+        android:textStyle="italic"/>
+
+
+</LinearLayout>

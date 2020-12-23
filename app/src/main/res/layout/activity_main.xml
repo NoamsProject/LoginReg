@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:background="#FFFFFF"
+    >
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="277dp"
+        android:textSize="60dp"
+        android:textColor="#0F1532"
+        android:textStyle="italic"
+        android:layout_marginTop="80dp"
+        android:text="Welcome to My Game List app!" />
+
+    <Button
+        android:id="@+id/btnReg"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="#0F1532"
+        android:text="Register"
+        android:textStyle="italic"
+        android:textSize="30dp"
+        android:textColor="#FFFF"
+        android:layout_marginTop="85dp"
+
+        />
+
+    <Button
+        android:id="@+id/btnLog"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:textSize="30dp"
+        android:textStyle="italic"
+        android:layout_marginTop="20dp"
+        android:text="LOGIN"
+        android:background="#0F1532"
+        android:textColor="#FFFF" />
+</LinearLayout>
